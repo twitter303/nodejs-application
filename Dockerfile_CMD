@@ -1,0 +1,7 @@
+FROM ubuntu
+RUN mkdir /opt/class30/
+RUN touch /opt/class30/jobs
+ADD . /opt/class30
+CMD pwd  
+CMD ["echo", "I am rich"]
+
